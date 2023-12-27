@@ -1,0 +1,24 @@
+
+.flex-grid {
+   width:60%; height:auto; background-color:eee; border:solid 1px #ccc; padding:20px; box-shadow:2px 2px 2px #999;}
+
+  
+  .user-heading{ width: 250px;
+   text-align: left;
+   display: flex;
+   margin-left: 1%;
+   flex-direction: column;} 
+  .user-heading h1{ font-size:1rem; margin:0px} 
+  .date-box p{ margin:0px; font-size:.815rem;} 
+
+  .avtar{ width:5%; height:5%; display:inline-block;}
+  .avtar img{ width:100%; height:5%;} 
+
+  .carousel-box{ width:100%; height:auto; display: flex;}
+  .carousel-box img{ width:100%; height:auto; display: flex;}
+
+  .heading{ display:flex; align-items: center; justify-content:start;}
+  .social-box{  margin-top:1%; display:inline;}
+
+  .like-btn{ display:inline-block; justify-content: left; margin:2% 4% 0 1%;}
+  

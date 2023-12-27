@@ -1,0 +1,29 @@
+
+.socialBox{display:inline-block; width:50%; border:solid 3px #EE82EE; padding:10px;}
+.socialBox h1{font-size:24px; text-decoration:none; font-weight:600; color:#000; margin-top:0px;}
+.listMainBox {display:flex;}
+.totalPost{display:flex; background-color:#fff; margin:10px; border:solid 2px #EE82EE; border-radius:4px; cursor:pointer;}
+.totalPost p{ color:#fff;
+    background-color:#EE82EE;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight:normal; 
+    margin-top:0px; 
+    width:100%; 
+    padding:0 10px 4px 16px;} 
+
+.contentText{ background-color:#fff; padding:20px; font-size:24px; text-align:left; text-decoration:none;}
+
+
+.myActivity{ width:100%; display:flex;}
+.myactivity-details{font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom:solid 3px #000;
+    padding:3px 20px;
+    cursor:pointer;
+    background-color:#000;
+    border-radius:8px;
+    margin:8px 8px;}
+
+.info{ display:flex; font-size:14px; color:#000; text-decoration:none; font-weight:normal; padding:0 0 0 12px;}

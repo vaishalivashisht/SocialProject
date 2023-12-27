@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import './App.css';
+import Post from './Components/Post/Post';
+import Createpost from './Components/Createpost/Createpost';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Socialprofile from './Components/SocialProfile/Socialprofile'; 
+import Tabs from './Components/Tabbing/Tabs';
+import { useContext } from 'react'; 
+import { TabContext } from './Components/Tabbing/Tabcontext';
+
+function App() { 
+
+const tabsState = useContext(TabContext);
+console.log("Context", tabsState);
+
+  return ( 
+    <div className="App"> 
+
+        <Routes> 
+
+        <Route exact path="/Post" element={<Post/>} />
+        <Route path="/Createpost" element={<Createpost/>} />
+        <Route path="/Socialprofile" element={<Socialprofile/>} />
+        
+        </Routes> 
+
+        <Tabs/> 
+
+     
+</div> 
+); 
+} 
 
 export default App;

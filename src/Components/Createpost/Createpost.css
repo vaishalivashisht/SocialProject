@@ -1,0 +1,18 @@
+.postBox{width:60%; height:auto; background-color:eee; border:solid 3px #EE82EE; padding:10px;}
+.postBox h1{ font-size:24px; text-align:center; color:#000; font-weight:bold; margin:0px; border-bottom:solid 2px #ccc;padding:0 0 20px 0;} 
+
+.form{ margin-top:20px; width:100%;} 
+.form textarea{ margin-top: 5px;
+    width: 98%;
+    background: #eee;
+    border: none;
+    padding: 10px 0 0 9px;}
+.form label{ font-weight:bold;}
+
+.iconList{ display:flex;}
+.headingCreate{display:inline-block; justify-content:center; width:96%;}
+.closeIcon{ display:inline-block;text-align:right; cursor:pointer;}  
+.uploadBox{ }
+.uploadBox p{ width:2%; display:inline-block; background-color:#eee; padding:20px; border:dotted 3px #ccc; border-radius:4px;}
+.boxBtn{ width:100%; padding:8px 0; display:block; text-align:center; background-color:#000; border:none; cursor:pointer; color:#fff; 
+ font-size:16px; border-radius:4px;}
