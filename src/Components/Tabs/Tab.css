@@ -1,0 +1,16 @@
+*{ margin:0px; padding:0px;}
+
+.tab{ width:40%;}
+.headsConteiner{ display:flex; justify-content:space-evenly;}
+.item{ width:100%; 
+    padding:10px;
+    color:#000;
+    cursor:pointer;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 16px;
+    border-bottom: solid 5px #000;}
+.active{  border-bottom: solid 5px yellow;width:100%; padding:10px;}
+
+.contentContainer{ padding:10px;} 
+

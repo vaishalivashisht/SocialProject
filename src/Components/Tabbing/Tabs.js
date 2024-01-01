@@ -2,7 +2,6 @@ import React from 'react'
 import { useContext } from 'react'; 
 import { TabContext } from './Tabcontext'; 
 
-
 const Tabs = () => {
 
     const tabContext = useContext(TabContext); 
